@@ -84,7 +84,7 @@ Build the `Gpt4All` (or `Gpt4All.Samples`) projects from within VisualStudio.
 using Gpt4All;
 
 // load the model
-var modelFactory = new ModelFactory();
+var modelFactory = new Gpt4AllModelFactory();
 
 using var model = modelFactory.LoadModel("./path/to/ggml-gpt4all-j-v1.3-groovy.bin");
 
